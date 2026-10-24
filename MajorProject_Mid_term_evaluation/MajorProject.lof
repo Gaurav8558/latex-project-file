@@ -1,0 +1,25 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces System Architecture of the Secure Document Vault}}{15}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces System Use Case Diagram}}{16}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces DFD Level 0 (Context Diagram)}}{17}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces DFD Level 1 of the Blockchain Secure Vault System}}{18}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Sequence Diagram for Public Dual-Check Verification}}{19}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Activity Diagram for Controlled Document Access and Decryption}}{20}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Class / Entity Diagram of the Secure Document Vault}}{21}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Deployment Diagram of the Secure Document Vault}}{22}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Secure Document Vault Home Page -- View 1}}{30}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Secure Document Vault Home Page -- View 2}}{30}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Secure Document Vault Home Page -- View 3}}{31}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Secure Document Vault Home Page -- View 4}}{31}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces User Registration Using Email and Password}}{32}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces User Registration Using Google Authentication}}{32}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces User Sign In Using Email and Password}}{33}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces User Registration Using OTP Verification}}{33}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces User Sign In Using Google Authentication}}{34}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Secure Document Vault Home Page After User Authentication}}{34}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Secure Document Vault Dashboard}}{35}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Document Upload Interface}}{35}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Document Verification Interface}}{36}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Organization Dashboard}}{36}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Organization Registration Interface}}{37}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Organization Management Interface}}{37}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces User Profile Information and Logout Interface}}{38}{}%

@@ -1,0 +1,56 @@
+\contentsline {section}{\numberline {1}Introduction}{6}{}%
+\contentsline {subsection}{\numberline {1.1}Project Overview}{6}{}%
+\contentsline {subsection}{\numberline {1.2}Technology Used}{6}{}%
+\contentsline {subsection}{\numberline {1.3}Field of Project}{6}{}%
+\contentsline {subsection}{\numberline {1.4}Special Technical Terms}{6}{}%
+\contentsline {subsection}{\numberline {1.5}Objectives of the Project}{7}{}%
+\contentsline {section}{\numberline {2}Requirement Analysis and System Specification}{8}{}%
+\contentsline {subsection}{\numberline {2.1}Problem Definition}{8}{}%
+\contentsline {subsection}{\numberline {2.2}Identity \& Access Module}{8}{}%
+\contentsline {subsection}{\numberline {2.3}Secure Document Processing Module}{8}{}%
+\contentsline {subsection}{\numberline {2.4}Blockchain Integrity Module}{8}{}%
+\contentsline {subsection}{\numberline {2.5}Sharing \& Retrieval Module}{8}{}%
+\contentsline {subsection}{\numberline {2.6}Key Non-Functional Requirements}{9}{}%
+\contentsline {subsection}{\numberline {2.7}Hardware Requirements}{9}{}%
+\contentsline {subsection}{\numberline {2.8}Software Requirements}{9}{}%
+\contentsline {subsection}{\numberline {2.9}Browser Requirements}{9}{}%
+\contentsline {section}{\numberline {3}System Design}{10}{}%
+\contentsline {subsection}{\numberline {3.1}Design Approach Overview}{10}{}%
+\contentsline {subsection}{\numberline {3.2}Objective 1: Smart Contract for SHA-256 Hash Storage (Immutability \& Transparency)}{10}{}%
+\contentsline {subsection}{\numberline {3.3}Objective 2: AES-256 Encryption and IPFS Decentralized Storage}{11}{}%
+\contentsline {subsection}{\numberline {3.4}Objective 3: Secure Document Dashboard (View, Verify, Download)}{11}{}%
+\contentsline {subsection}{\numberline {3.5}Objective 4: Document Validity Verification}{12}{}%
+\contentsline {section}{\numberline {4}Implementation, Testing and Maintenance}{14}{}%
+\contentsline {subsection}{\numberline {4.1}Proposed Testing Techniques}{14}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Unit Testing}{14}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Integration Testing}{14}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Smart Contract Testing}{14}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}API Testing}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.5}Security Testing}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.6}End-to-End (E2E) Testing}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.7}Performance and Load Testing}{15}{}%
+\contentsline {subsubsection}{\numberline {4.1.8}Usability and Compatibility Testing}{16}{}%
+\contentsline {subsection}{\numberline {4.2}System Test Cases}{16}{}%
+\contentsline {subsection}{\numberline {4.3}Maintenance}{17}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}System Monitoring}{17}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Security Maintenance}{18}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Database and Storage Maintenance}{18}{}%
+\contentsline {subsubsection}{\numberline {4.3.4}Blockchain Network Maintenance}{18}{}%
+\contentsline {subsubsection}{\numberline {4.3.5}Software Updates}{18}{}%
+\contentsline {subsubsection}{\numberline {4.3.6}User Support and Access Management}{18}{}%
+\contentsline {subsubsection}{\numberline {4.3.7}Performance Optimization}{19}{}%
+\contentsline {subsubsection}{\numberline {4.3.8}Bug Fixing and Documentation}{19}{}%
+\contentsline {subsubsection}{\numberline {4.3.9}Scalability Planning}{19}{}%
+\contentsline {subsubsection}{\numberline {4.3.10}Compliance and Audit}{19}{}%
+\contentsline {section}{\numberline {5}Results and Discussion}{20}{}%
+\contentsline {subsection}{\numberline {5.1}User Registration and Authentication}{20}{}%
+\contentsline {subsection}{\numberline {5.2}Secure Document Upload}{23}{}%
+\contentsline {subsection}{\numberline {5.3}Decentralized Storage}{24}{}%
+\contentsline {subsection}{\numberline {5.4}Blockchain-Based Verification}{24}{}%
+\contentsline {subsection}{\numberline {5.5}Retrieval and Decryption}{25}{}%
+\contentsline {subsection}{\numberline {5.6}Performance Analysis}{25}{}%
+\contentsline {subsection}{\numberline {5.7}Security Analysis}{26}{}%
+\contentsline {subsection}{\numberline {5.8}Discussion}{26}{}%
+\contentsline {section}{\numberline {6}Conclusion and Future Scope}{27}{}%
+\contentsline {subsection}{\numberline {6.1}conclusion}{27}{}%
+\contentsline {subsection}{\numberline {6.2}future scope}{27}{}%

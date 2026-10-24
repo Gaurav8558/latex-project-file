@@ -1,0 +1,13 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Control flow of Blockchain Secure Vault}}{13}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Landing page of the system before user authentication}}{20}{}%
+\contentsline {figure}{\numberline {3}{\ignorespaces User registration interface for creating a new account}}{20}{}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Account registration using Google authentication}}{21}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces User login interface using username and password}}{21}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces User login using Google authentication}}{22}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces User login using One-Time Password (OTP) verification}}{22}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Home interface displayed after user authentication}}{23}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Secure document management dashboard after successful login}}{23}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Document upload interface for secure file encryption and storage}}{24}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Secure Document Upload with IPFS and Pinata Integration}}{24}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Document verification interface for validating file authenticity using blockchain records}}{25}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Document Integrity Verified Successfully}}{25}{}%

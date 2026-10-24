@@ -1,0 +1,290 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{hyperref}
+\usepackage{newtxtext,newtxmath}
+\usepackage{lipsum}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\geometry{
+    a4paper,
+    left=3.5cm,
+    right=1.25cm,
+    top=2.5cm,
+    bottom=1.25cm
+}
+
+\doublespacing 
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\raisebox{0.9cm}{\thepage}}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\footskip}{1.2cm}
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\raisebox{0.7cm}{\thepage}}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \thispagestyle{empty}
+    
+    {\fontsize{24pt}{28pt}\selectfont \bfseries
+    PROJECT TITLE {\fontsize{12pt}{14pt}\selectfont (24 pt.)} \par}
+    \vspace{0.5cm}
+    
+    {\fontsize{14pt}{18pt}\selectfont \bfseries
+    MAJOR PROJECT REPORT {\fontsize{12pt}{14pt}\selectfont (14 pt.)} \par}
+    \vspace{0.8cm}
+    
+    {\fontsize{12pt}{14pt}\selectfont
+    SUBMITTED IN PARTIAL FULFILMENT OF THE REQUIREMENTS FOR THE AWARD OF THE DEGREE OF {\fontsize{12pt}{14pt}\selectfont (12 pt.)}\par}
+    \vspace{1cm}
+    
+    {\fontsize{14pt}{18pt}\selectfont 
+    \textbf{BACHELOR OF TECHNOLOGY} \\
+    {\fontsize{14pt}{18pt}\selectfont{Computer Science and Engineering}} {\fontsize{12pt}{14pt}\selectfont (14 pt.)} 
+    \par}
+    \vspace{1.5cm}
+    
+    \includegraphics[width=0.35\textwidth]{gne_logo.png}\par
+    \vspace{1.5cm}
+    
+    {\fontsize{14pt}{18pt}\selectfont
+    \noindent
+    \begin{minipage}[t]{0.69\textwidth}
+        \raggedright
+        \textbf{Submitted By:} \\
+        Tejas Joshi \hspace{0.2cm}(2203903) {\fontsize{12pt}{14pt}\selectfont (14 pt.)} \\
+        Kanan Kaura \hspace{0.2cm}(2203845) {\fontsize{12pt}{14pt}\selectfont (14 pt.)} \\
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.29\textwidth}
+        \textbf{Submitted To:} \\ 
+        Prof. Jasdeep Kaur \\
+        \textit{Designation} \\
+    \end{minipage}}
+    
+    \vspace{1.5cm}
+    
+    {\fontsize{14pt}{18pt}\selectfont \bfseries
+    DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING\\
+    GURU NANAK DEV ENGINEERING COLLEGE\\
+    LUDHIANA, 141006 {\fontsize{12pt}{14pt}\selectfont (14 pt.)} \par}
+    
+    \vspace{0.1cm}
+    {\fontsize{12pt}{14pt}\selectfont APRIL, 2025 \par}
+    
+\end{titlepage}
+
+\pagenumbering{roman}
+\setlength{\footskip}{1.5cm}
+
+\begin{center}
+    {\fontsize{16pt}{18pt}\selectfont\textbf{ABSTRACT}}
+\end{center}
+\noindent
+Packet Filtering firewalls can use a database of rules to decide which packets will be allowed to
+move in and out and from one network onto another. However with the increase in size of rule
+list, it’s very hard to manage and validate the rules, which can also increase the cost of rule lookup
+and that may add significantly to latency. Packet filtering is the one of the major contemporary
+firewall design techniques. Implementation of such packet filter using Binary Decision Diagram
+(BDD) gives more advantages in terms of memory usage and look up time. In the case of the
+list-based packet filter firewall where rules are checked one by one for each incoming packet,
+the time taken to decide on a packet is proportional to the number of rules. The performance
+is improved with rule promotion but that is a slow and static kind of firewall implementation.
+In this work a BDD-based approach is presented which gives much better result in terms of
+number of comparisons or accesses the rule list make. This work presents the study, design and
+implementation of a packet filter firewall using binary decision diagram which provides faster
+processing of packets while maintaining the integrity of the original security policy. Results on
+large number of packets show that for most-accept packets, and for most- reject packets there is
+manifold reduction in such comparisons when BDD-based approach is used over list-based with
+promotion approach.
+
+\newpage
+\begin{center}
+    {\fontsize{16pt}{18pt}\selectfont\textbf{ACKNOWLEDGEMENT}}
+\end{center}
+
+\noindent I/We are highly grateful to Dr. Sehijpal Singh, Principal, Guru Nanak Dev Engineering College (GNDEC), Ludhiana, for providing this opportunity to carry out the major project work. 
+The constant guidance and encouragement received from Dr. Kiran Jyoti, H.O.D. CSE Department,
+GNDEC Ludhiana, has been of great help in carrying out the project work and is acknowledged
+with reverential thanks. I/We would like to express a deep sense of gratitude and thanks profusely to Project Guide Name; without his/her wise counsel and able guidance, it would have
+been impossible to complete the project in this manner. I/We express gratitude to other faculty members of the Computer Science and Engineering Department of GNDEC for their intellectual
+support throughout the course of this work. Finally, I/We are indebted to all who have
+contributed to this report work.
+
+\vspace{0.5cm}
+
+\noindent{\fontsize{12pt}{14pt}\selectfont\textbf{Tejas Joshi}}\\
+\noindent{\fontsize{12pt}{14pt}\selectfont\textbf{Kanan Kaura}}\\
+
+\newpage
+\begin{center}
+    {\fontsize{16pt}{18pt}\selectfont\textbf{LIST OF FIGURES}}
+\end{center}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.2}
+    \setlength{\tabcolsep}{15pt}
+    \centering
+    {\fontsize{14pt}{16pt}\selectfont
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l >{\raggedright\arraybackslash}p{9cm} r }
+        \toprule
+        \textbf{Fig. No.} & \textbf{Figure Description} & \textbf{Page No.} \\
+        \midrule
+        1.1 & Architecture Diagram of Proposed System & 3 \\
+        1.2 & Flowchart of Login Process & 5 \\
+        2.1 & Use Case Diagram for User Roles & 9 \\
+        3.1 & DFD Level 0 Diagram & 15 \\
+        3.2 & DFD Level 1 Diagram & 16 \\
+        3.3 & UML Class Diagram & 18 \\
+        4.1 & Database ER Diagram & 24 \\
+        4.2 & User Dashboard Interface Screenshot & 26 \\
+        4.3 & Admin Panel Layout & 28 \\
+        5.1 & Test Case Execution Results Graph & 37 \\
+    \end{tabular*}}
+\end{table}
+
+\newpage
+\begin{center}
+    {\fontsize{16pt}{18pt}\selectfont\textbf{LIST OF TABLES}}
+\end{center}
+
+\begin{table}[H]
+    \renewcommand{\arraystretch}{1.2}
+    \setlength{\tabcolsep}{15pt}
+    \centering
+    {\fontsize{14pt}{16pt}\selectfont
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l >{\raggedright\arraybackslash}p{9cm} r}
+        \toprule
+        \textbf{Table No.} & \textbf{Table Description} & \textbf{Page No.} \\
+        \midrule
+        4.1 & Test Plan for Login Module & 34 \\
+        4.2 & Functional Requirements Summary & 8 \\
+        4.3 & Performance Metrics Comparison & 36 \\
+        4.4 & Validation Test Cases & 38 \\
+        4.5 & Module-Wise Implementation Schedule & 32 \\
+        4.6 & Database Table: User Details & 25 \\
+        4.7 & Coding Standards Checklist & 30 \\
+        5.1 & Bug Tracking Report & 40 \\
+        5.2 & User Feedback Summary & 42 \\
+        6.1 & Future Feature Suggestions & 48 \\
+    \end{tabular*}}
+\end{table}
+
+\newpage
+\begin{center}
+    {\fontsize{16pt}{18pt}\selectfont\textbf{TABLE OF CONTENTS}}
+\end{center}
+
+\vspace{0.8cm}
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{20pt}
+
+{\centering
+\fontsize{14pt}{16pt}\selectfont
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+    \toprule
+    \textbf{Contents} & \textbf{Page No.} \\
+    \midrule
+    \textbf{\textit{Abstract}} & \textbf{\textit{i}} \\
+    \textbf{\textit{Acknowledgement}} & \textbf{\textit{ii}} \\
+    \textbf{\textit{List of Figures}} & \textbf{\textit{iii}} \\
+    \textbf{\textit{List of Tables}} & \textbf{\textit{iv}} \\
+    \textbf{\textit{Table of Contents}} & \textbf{\textit{v}} \\
+    \textbf{Chapter 1: Introduction} & \textbf{1} \\
+    \hspace{2.4cm}1.1 Introduction to Project & \\
+    \hspace{2.4cm}1.2 Project Category &  \\
+    \hspace{2.4cm}1.3 Objectives & \\
+    \hspace{2.4cm}1.4 Problem Formulation & \\
+    \hspace{2.4cm}1.5 Identification/Reorganization of Need & \\
+    \hspace{2.4cm}1.6 Existing System & \\
+    \hspace{2.4cm}1.7 Proposed System & \\
+    \hspace{2.4cm}1.8 Unique Features of the System & \\
+    \textbf{Chapter 2: Requirement Analysis and System Specification} & \textbf{5} \\
+    \hspace{2.4cm}2.1 Feasibility Study & \\
+    \hspace{2.4cm}2.2 Software Requirement Specification Document &  \\
+    \hspace{2.4cm}2.3 Validation & \\
+    \hspace{2.4cm}2.4 Expected Hurdles & \\
+    \hspace{2.4cm}2.5 SDLC Model to be Used & \\
+\end{tabular*}\par}
+
+\newpage
+\renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{20pt}
+
+{\centering
+\fontsize{14pt}{16pt}\selectfont
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r }
+    \toprule
+    \textbf{Contents} & \textbf{Page No.} \\
+    \midrule
+    \addlinespace[0.5cm]
+    \textbf{Chapter 3: System Design} & \textbf{12} \\
+    \hspace{2.4cm}3.1 Design Approach & \\
+    \hspace{2.4cm}3.2 Detail Design &  \\
+    \hspace{2.4cm}3.3 System Design Using Structured Tools & \\
+    \hspace{2.4cm}3.4 User Interface Design & \\
+    \hspace{2.4cm}3.5 Database Design & \\
+    \hspace{2.4cm}3.6 Methodology & \\
+    \textbf{Chapter 4: Implementation, Testing and Maintenance} & \textbf{20} \\
+    \hspace{2.4cm}4.1 Introduction to Tools and Technologies & \\
+    \hspace{2.4cm}4.2 Coding Standards &  \\
+    \hspace{2.4cm}4.3 Project Scheduling Tools & \\
+    \hspace{2.4cm}4.4 Testing Techniques and Test Plans & \\
+    \textbf{Chapter 5: Results and Discussions} & \textbf{30} \\
+    \hspace{2.4cm}5.1 User Interface Representation & \\
+    \hspace{2.4cm}5.2 Snapshots with Details &  \\
+    \hspace{2.4cm}5.3 Backend Database Representation & \\
+    \textbf{Chapter 6: Conclusion and Future Scope} & \textbf{45} \\
+    \textbf{References / Bibliography}
+\end{tabular*}\par}
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}  
+
+{\raggedright
+    \fontsize{18pt}{20pt}\selectfont\textbf{\underline{SPECIFICATIONS FOR MAJOR PROJECT REPORT}}\par
+}
+
+\begin{enumerate}[left=0pt, labelsep=0.5em, itemindent=0pt]
+    \item The report shall be computer-typed (English- British, font - Times Roman, Size-12 point) and printed on A4 size paper.
+    \item The Report shall be hard bound with the cover page in white color. The name of the candidate, degree (specifying the branch), roll no, session, year of submission, name of the University including college name shall be printed in black on the cover [Refer sample sheet (outer cover)].
+    \item The report shall be typed on one side only with double space with a margin 3.5 cm on the left, 2.5 cm on the top, and 1.25 cm on the right and at bottom.
+    \item In the report, the title page [Refer sample sheet (inner cover)] should be given first then the Certificate by the candidate and the supervisor(s) in sequence, followed by an abstract of the report (not exceeding 1500 words). This should be followed by the acknowledgment, list of figures/list of tables, notations/nomenclature, and then contents with page numbers.
+    \item References and Bibliography should be included in report.
+    \item The diagrams should be printed on a light/white background. Tabular matter should be clearly arranged. Decimal point may be indicated by full stop (.). The caption for Figure must be given at the BOTTOM of the Fig. and Caption for the Table must be given at the TOP of the Table.
+    \item The graphs should be combined for the same parameters for proper comparison. Single graph should be avoided as far as possible.
+    \item Conclusions must not exceed more than two pages.
+    \item The report must consist of the following chapters:
+    \begin{enumerate}
+        \item Chapter 1 - Introduction
+        \item Chapter 2 - Requirement Analysis and System Specification
+        \item Chapter 3 - System Design
+        \item Chapter 4 - Implementation, Testing and Maintenance
+        \item Chapter 5 - Results and Discussions
+        \item Chapter 6 - Conclusion and Future Scope
+        \item References
+        \item Appendix (if any)
+        \item Annexures - I, II, III
+    \end{enumerate}
+    \item There should be 3 copies of Final Report.
+\end{enumerate}
+
+\end{document}

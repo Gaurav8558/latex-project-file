@@ -1,0 +1,207 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, left=3.5cm, right=1.25cm, top=2.5cm, bottom=1.25cm]{geometry}
+\usepackage{newtxtext}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{cite}   % improves citation formatting
+\usepackage{url}    % handles URLs safely
+\usepackage{setspace}
+
+
+
+\begin{document}
+\begin{center}
+
+%\vspace*{1.2cm}
+
+% Project Title
+{\fontsize{24pt}{28pt}\selectfont \textbf{BLOCKCHAIN SECURE VAULT}}\\[1.6cm]
+
+% Project Synopsis
+{\fontsize{14pt}{18pt}\selectfont \textbf{PROJECT SYNOPSIS}}\\[1.2cm]
+
+% Minor Project
+{\fontsize{12pt}{14pt}\selectfont OF MAJOR PROJECT}\\[1.9cm]
+
+% Degree
+{\fontsize{14pt}{18pt}\selectfont \textbf{BACHELOR OF TECHNOLOGY}}\\[1.4cm]
+
+% Branch
+{\fontsize{16pt}{20pt}\selectfont Computer Science Engineering}\\[2.2cm]
+
+% Submitted By
+{\fontsize{12pt}{14pt}\selectfont SUBMITTED BY}\\[1cm]
+
+% Student Name
+\begin{center}
+\begin{tabular}{c@{\hspace{1cm}}c@{\hspace{1cm}}c}
+{\fontsize{14pt}{16pt}\selectfont EKAMPREET SINGH} &
+{\fontsize{14pt}{16pt}\selectfont GAURAV PRASHAR} &
+{\fontsize{14pt}{16pt}\selectfont GAURAV SHARMA} \\
+
+{\fontsize{14pt}{16pt}\selectfont 2302515} &
+{\fontsize{14pt}{16pt}\selectfont 2302518} &
+{\fontsize{14pt}{16pt}\selectfont 2302519}
+\end{tabular}
+\end{center}
+% Month & Year
+{\fontsize{12pt}{14pt}\selectfont AUGUST 2026}\\[2.2cm]
+
+% College Logo
+\includegraphics[width=4cm]{gne_logo.png}\\[1.4cm]
+
+% College Name
+{\fontsize{16pt}{20pt}\selectfont \textbf{GURU NANAK DEV ENGINEERING COLLEGE,}}\\[0.7cm]
+{\fontsize{16pt}{20pt}\selectfont \textbf{LUDHIANA}}
+
+\vspace*{1cm}
+
+\end{center}
+
+\newpage
+\tableofcontents
+\newpage
+
+
+\newpage
+\section{Introduction}
+
+\subsection{Brief introduction about the project to be developed}
+
+This project is an extended and enhanced version of the previously developed Blockchain Secure Vault, continued as a major project through the development of a dedicated mobile application for secure document management. The existing system provides encrypted document storage, decentralized storage, and blockchain-based integrity verification. The major project focuses on extending this foundation with a convenient mobile interface while improving document organization, accessibility, and access control. The proposed system combines end-to-end encryption, decentralized storage, blockchain-based verification, and application-level security to provide a secure environment for managing sensitive digital documents \cite{stallings2017}.
+
+The mobile application will enable authorized users to securely access, organize, search, share, and manage their encrypted documents. It will introduce a file-manager interface with folders and subfolders, document search, role-based access control, and temporary access permissions. Users will also be able to view supported documents within the application and access downloaded documents through controlled in-app workflows. Temporary access can be granted for a predefined duration and automatically becomes invalid after expiration, while role-based permissions ensure that users can perform only authorized operations. The mobile application will communicate with the existing backend and blockchain infrastructure, allowing the security mechanisms developed during the minor project to be utilized and extended in the major project.
+
+The project aims to provide a practical and secure mobile solution for document management while maintaining confidentiality, integrity, and controlled accessibility. By combining blockchain, cryptography, decentralized storage, secure backend services, and mobile application development, the project demonstrates the practical application of these technologies in a comprehensive secure document management system.
+
+\subsection{Technology Used}
+\begin{itemize}
+\item \textbf{Mobile Application:} React Native for developing the cross-platform mobile application
+\item \textbf{Backend:} Node.js and Express for REST APIs, authentication, access control, and document management
+\item \textbf{Database:} MongoDB for user accounts, document metadata, folders, permissions, and access records
+\item \textbf{Blockchain:} Solidity smart contracts with Hardhat and Ethers.js for on-chain integrity verification
+\item \textbf{Storage:} IPFS with Pinata for decentralized storage of encrypted documents
+\item \textbf{Cryptography:} AES-256 for document encryption and SHA-256 for integrity hashing \cite{nist197}
+\item \textbf{Document Processing:} PDF.js, Mammoth.js, and suitable mobile document-rendering libraries for secure in-app document viewing
+\end{itemize}
+
+\subsection{Field of Project}
+\begin{itemize}
+\item Information and Cyber Security
+\item Blockchain and Decentralized Storage
+\item Secure Mobile Application Development
+\item Secure Document and File Management
+\item Access Control and Privacy
+\end{itemize}
+
+\subsection{Special Technical Terms}
+\begin{itemize}
+\item \textbf{End-to-End Encryption (E2EE):} Documents are encrypted before storage and decrypted only when accessed by an authorized user.
+\item \textbf{Content Hash:} A cryptographic fingerprint used to identify a document and detect unauthorized modification.
+\item \textbf{On-chain Verification:} Verification of document integrity by comparing its computed hash with the corresponding blockchain record.
+\item \textbf{Role-Based Access Control (RBAC):} A security mechanism in which document permissions are assigned according to the user's role and authorized operations.
+\item \textbf{Temporary Access:} Time-limited permission that automatically expires after a predefined duration.
+\item \textbf{Immutable Ledger:} A tamper-resistant blockchain record used to maintain trustworthy document integrity information.
+\item \textbf{In-App Document Viewing:} A controlled mechanism for viewing supported documents within the mobile application without unnecessarily exposing decrypted files to external applications.
+\end{itemize}
+
+\newpage
+\section{Rationale}
+
+The rapid growth of digital data exchange has increased the dependence on cloud-based document storage and sharing systems. Although conventional platforms provide convenience and scalability, they may not provide users with sufficient control over confidentiality, document integrity, access permissions, and tamper detection. This becomes particularly important for academic records, legal documents, certificates, medical records, and organizational data, where unauthorized access or modification can have serious consequences. The previously developed Blockchain Secure Vault established a foundation for secure document storage through end-to-end encryption, decentralized storage, and blockchain-based integrity verification. The major project extends this foundation by developing a dedicated mobile application that provides improved accessibility and introduces document search, folder-based file management, role-based access control, temporary access permissions, and controlled in-app document viewing.
+
+The rationale for continuing this project is to bridge the gap between secure document storage and convenient, controlled mobile document management. AES-256 encryption protects document confidentiality, while SHA-256 hashing and blockchain records provide independent verification of document integrity \cite{nist197}. Role-based and temporary access mechanisms ensure that documents are available only to authorized users for the permitted duration, while the file-manager interface provides efficient organization and navigation of documents. The mobile application will interact with the existing backend, decentralized storage, and blockchain infrastructure, allowing the security mechanisms developed during the minor project to be extended into a practical mobile solution. By integrating these capabilities with mobile application technologies, decentralized storage, and smart contracts, the project demonstrates a practical application of blockchain beyond cryptocurrency and provides a stronger foundation for secure, privacy-preserving, and verifiable document management \cite{szabo1997}.
+
+
+\newpage
+\section{Objectives}
+
+\begin{enumerate}
+    \item To develop a secure mobile application for streamlined document management and organization.
+    
+    \item To establish role-based access control for secure document sharing.
+    
+    \item To enable document search and folder-based file organization for efficient retrieval.
+    
+    \item To ensure controlled in-app document viewing with secure access mechanisms.
+\end{enumerate}
+
+
+
+
+\newpage
+\section{Literature Review}
+
+The increasing use of digital documents in academic, legal, healthcare, and organizational environments has created a need for secure storage, controlled sharing, and reliable document verification. Conventional centralized storage systems may introduce risks related to unauthorized modification, single points of failure, and dependence on centralized authorities. Blockchain and decentralized storage technologies have therefore been investigated as alternatives for improving document integrity, transparency, and verifiability. Rahalkar and Gujar proposed a content-addressed peer-to-peer file system that combines IPFS with blockchain-based metadata integrity, demonstrating how large files can remain off-chain while blockchain records provide tamper-evident metadata and integrity information \cite{rahalkar2019}.
+
+Huang et al. proposed a secure file-sharing system based on IPFS and blockchain that incorporates distributed access control and group key management. Their approach uses an IPFS proxy to enforce access policies and allows users to access files according to their authorized groups \cite{huang2020}. This work is particularly relevant to the proposed system because it demonstrates that decentralized storage alone does not provide sufficient access control and that additional permission-management mechanisms are required for secure document sharing.
+
+Rahman et al. introduced Verifi-Chain, a blockchain and IPFS-based credential verification system in which documents are stored through IPFS and their cryptographic identities are recorded on blockchain nodes. The system enables organizations to verify credentials without relying entirely on manual verification processes \cite{rahman2023}. Similarly, Mishra et al. proposed a decentralized document verification framework using Ethereum and IPFS to improve the security, transparency, and efficiency of academic document verification \cite{mishra2025}. These studies demonstrate the suitability of blockchain and IPFS for document integrity and authenticity verification.
+
+Recent research has also emphasized secure document sharing using blockchain, IPFS, and encryption. Such approaches demonstrate that blockchain can provide immutable records and auditable operations, while decentralized storage can handle large encrypted files without storing the complete document directly on-chain. However, existing approaches generally focus on document verification, decentralized storage, or specific access-control mechanisms rather than providing a complete mobile-oriented document management environment.
+
+The proposed major project extends the previously developed Blockchain Secure Vault by integrating its existing encryption, IPFS storage, backend, and blockchain-based integrity verification mechanisms with a dedicated mobile application. The extended system introduces practical features including document search, folder-based file management, role-based access control, temporary access with automatic expiration, controlled in-app document viewing, and secure document sharing. Thus, the proposed work aims to combine the security and verifiability demonstrated in previous research with a convenient mobile interface and comprehensive document-management capabilities.
+\newpage
+\section{Feasibility Study}
+
+\subsection{Project Need and Problem Statement}
+The existing Blockchain Secure Vault provides encrypted document storage, decentralized storage, and blockchain-based integrity verification. However, extending the system into a practical mobile solution requires improved document organization, accessibility, granular access control, and secure document handling. The major project addresses these requirements through a dedicated mobile application providing document search, folder-based file management, role-based access control, temporary access permissions, controlled in-app document viewing, and activity tracking. These enhancements extend the functionality of the existing system while retaining its established security architecture.
+
+\subsection{Technical Feasibility}
+The proposed mobile application is technically feasible using established technologies and the existing project infrastructure. React Native can be used to develop the cross-platform mobile interface, while Node.js, Express.js, and MongoDB can manage authentication, user roles, permissions, folders, temporary access rules, document metadata, and activity records. The existing Solidity smart contracts and blockchain infrastructure can continue to provide document integrity verification, while IPFS remains responsible for decentralized storage of encrypted documents. The mobile application will communicate with these existing services through secure REST APIs, making the required development primarily an extension and integration of existing modules.
+
+\subsection{Economic Feasibility}
+The project remains economically feasible because it uses open-source technologies and builds upon infrastructure already developed during the minor project. React Native, Node.js, MongoDB, Hardhat, Solidity, and supporting development tools do not require expensive proprietary licenses. Development and testing can be performed using standard computing hardware and physical or virtual mobile devices. Additional storage and deployment costs can be managed according to system requirements, while blockchain costs remain limited because only essential document integrity information is stored on-chain.
+
+\subsection{Operational Feasibility}
+The mobile application is operationally feasible because its features are based on familiar document-management concepts. Users can navigate folders, search for documents, view authorized files, and manage documents according to their assigned permissions. Administrators can manage roles and access privileges, while temporary permissions can automatically expire without manual intervention. The separation of the mobile interface, backend services, database, decentralized storage, and blockchain layer supports maintainability and allows future features to be added without major changes to the existing security architecture.
+
+\subsection{Significance and Benefits}
+The major-project extension improves the practical value of the Blockchain Secure Vault by making its security capabilities accessible through a dedicated mobile platform. Folder organization and document search improve usability, while role-based and temporary access provide finer control over sensitive documents. Controlled in-app viewing and activity tracking further improve document security and accountability. The project therefore demonstrates the integration of blockchain, cryptography, decentralized storage, mobile application development, and modern access-control mechanisms in a practical secure document management solution.
+
+\subsection{Conclusion}
+The proposed major-project extension is technically achievable, economically viable, and operationally practical because it builds upon an already implemented and tested foundation. The development of a dedicated mobile application, together with advanced document management, granular access control, temporary permissions, and secure document workflows, provides meaningful functionality beyond the completed minor-project objectives while remaining feasible within the available resources and development timeline.
+
+\newpage
+\section{Methodology / Planning of Work}
+
+The major project will be developed as an extension of the previously implemented Blockchain Secure Vault through the development of a dedicated mobile application. The existing authentication, encryption, decentralized storage, and blockchain verification modules will be retained and integrated with the mobile application, while new document-management and access-control capabilities will be developed. The work will follow an iterative and modular approach, beginning with analysis of the existing system and requirements for the mobile extension. The planned development will proceed through the following stages:
+
+\begin{enumerate}
+
+\item \textbf{System Analysis and Requirement Definition:} Analyze the existing Blockchain Secure Vault and define requirements for the mobile application, including document search, folder management, role-based access, temporary access, secure viewing, and activity tracking.
+
+\item \textbf{Mobile Application Development:} Design and develop the mobile application using React Native, providing authentication, navigation, dashboard, document management, and user-friendly mobile interfaces.
+
+\item \textbf{File Manager Development:} Implement a hierarchical folder and file structure within the mobile application to support creating folders, uploading, moving, renaming, and organizing documents.
+
+\item \textbf{Search and Document Management:} Develop document search and browsing functionality using document metadata, allowing users to quickly locate and manage authorized documents.
+
+\item \textbf{Access Control Implementation:} Implement role-based and document-level permissions, along with temporary access that automatically expires after a predefined duration.
+
+\item \textbf{Secure Document Viewing:} Implement controlled in-app document viewing and access workflows to minimize unnecessary exposure of decrypted documents to external applications.
+
+\item \textbf{Backend and Security Integration:} Connect the mobile application with the existing backend, database, encryption, IPFS storage, and blockchain verification services through secure APIs.
+
+\item \textbf{Activity Tracking and Testing:} Record important document and access operations and perform functional, security, integration, usability, and mobile-device testing to evaluate the reliability of the complete system.
+
+\end{enumerate}
+
+\newpage
+\section{Facilities required for proposed work}
+
+The project can be developed using a modern computer with at least 8~GB RAM and approximately 50~GB of available storage, running Windows, macOS, or Linux. The development environment will include Node.js (version~18 or higher), npm, Visual Studio Code, Git, and React Native development tools. Android Studio and the Android SDK will be required for Android application development and testing, while an Android device or emulator can be used for application testing. If required, Xcode and an iOS device or simulator can be used for iOS testing on macOS.
+
+The existing backend will use Node.js, Express.js, and MongoDB for authentication, document metadata, folders, permissions, temporary access, and activity records. Solidity, Hardhat, and ethers.js will support the existing blockchain infrastructure, while IPFS with Pinata will provide decentralized storage for encrypted documents. Node.js \texttt{crypto} and suitable mobile cryptographic libraries will support secure cryptographic operations, while PDF and document-rendering libraries will support in-app document viewing. Postman, Android Studio debugging tools, and device developer tools will be used for API and mobile application testing. These technologies are widely available and sufficient for implementing and evaluating the proposed mobile application.
+
+\newpage
+\section{Expected outcomes}
+
+Upon successful completion, the project will deliver a tested and integrated mobile application as an extension of the existing Blockchain Secure Vault. The mobile application will utilize the previously implemented AES-256 encryption, SHA-256 hashing, IPFS-based decentralized storage, and blockchain-based integrity verification mechanisms while introducing enhanced document-management and access-control capabilities. It will provide a mobile file-manager interface with folders and subfolders, efficient document search, role-based access control, document-level permission management, temporary access with automatic expiration, controlled in-app document viewing, secure document sharing, and activity tracking for important document operations. These enhancements will improve the confidentiality, usability, accountability, and controlled accessibility of sensitive documents while retaining the existing tamper-evident verification mechanism. The final outcome will demonstrate the practical integration of blockchain, cryptography, decentralized storage, backend services, and mobile application development to provide a secure and convenient document management solution.
+
+
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

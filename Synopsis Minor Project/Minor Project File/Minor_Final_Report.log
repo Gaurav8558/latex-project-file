@@ -1,0 +1,505 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.24)  15 JUN 2026 16:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Minor_Final_Report.tex
+(Minor_Final_Report.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-29>
+(D:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(D:\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(D:\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(D:\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(D:\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (D:\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+ (D:\MiKTeX\tex/latex/geometry\geometry.cfg))
+(D:\MiKTeX\tex/latex/newtx\newtxtext.sty
+Package: newtxtext 2024/04/01 v1.744(Michael Sharpe) latex and unicode latex su
+pport for TeXGyreTermesX
+
+`newtxtext' v1.744, 2024/04/01 Text macros taking advantage of TeXGyre Termes a
+nd its extensions (msharpe) (D:\MiKTeX\tex/latex/xpatch\xpatch.sty
+(D:\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-29 L3 programming layer (loader) 
+
+(D:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count286
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(D:\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+(D:\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+))
+(D:\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(D:\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(D:\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(D:\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(D:\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(D:\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(D:\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks19
+\XKV@tempa@toks=\toks20
+)
+\XKV@depth=\count288
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(D:\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(D:\MiKTeX\tex/latex/xstring\xstring.sty
+(D:\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count289
+\xs_countb=\count290
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(D:\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(D:\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+LaTeX Font Info:    Setting ntxLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
+LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
+
+(D:\MiKTeX\tex/generic/binhex\binhex.tex)
+\ntx@tmpcnta=\count291
+\ntx@cnt=\count292
+
+(D:\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [2024-11-01] Use figureversions if present on input line 74.
+
+(D:\MiKTeX\tex/latex/figureversions\figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)
+Already applied: [0000-00-00] Fall back to v1 on input line 76.
+)
+\tx@sixem=\dimen157
+\tx@y=\dimen158
+\tx@x=\dimen159
+\tx@tmpdima=\dimen160
+\tx@tmpdimb=\dimen161
+\tx@tmpdimc=\dimen162
+\tx@tmpdimd=\dimen163
+\tx@tmpdime=\dimen164
+\tx@tmpdimf=\dimen165
+\tx@dimA=\dimen166
+\tx@dimAA=\dimen167
+\tx@dimB=\dimen168
+\tx@dimBB=\dimen169
+\tx@dimC=\dimen170
+LaTeX Info: Redefining \oldstylenums on input line 902.
+)
+(D:\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(D:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
+)
+(D:\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip51
+\enit@outerparindent=\dimen173
+\enit@toks=\toks21
+\enit@inbox=\box53
+\enit@count@id=\count293
+\enitdp@description=\count294
+) (D:\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (D:\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (D:\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(D:\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks22
+\float@box=\box54
+\@float@everytoks=\toks23
+\@floatcapt=\box55
+)
+(D:\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip52
+\f@nch@offset@elh=\skip53
+\f@nch@offset@erh=\skip54
+\f@nch@offset@olh=\skip55
+\f@nch@offset@orh=\skip56
+\f@nch@offset@elf=\skip57
+\f@nch@offset@erf=\skip58
+\f@nch@offset@olf=\skip59
+\f@nch@offset@orf=\skip60
+\f@nch@height=\skip61
+\f@nch@footalignment=\skip62
+\f@nch@widthL=\skip63
+\f@nch@widthC=\skip64
+\f@nch@widthR=\skip65
+\@temptokenb=\toks24
+)
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
+e 22.
+
+(D:\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 22.
+ (Minor_Final_Report.aux
+
+LaTeX Warning: Label `fig:ten' multiply defined.
+
+
+LaTeX Warning: Label `fig:ten' multiply defined.
+
+)
+\openout1 = `Minor_Final_Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 462.3573pt, 35.56593pt)
+* v-part:(T,H,B)=(71.13188pt, 738.34903pt, 35.56593pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=462.3573pt
+* \textheight=738.34903pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(D:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count296
+\scratchdimen=\dimen174
+\scratchbox=\box56
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen175
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks26
+) (D:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@mv@tabular=\count302
+\c@mv@boldtabular=\count303
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 24.0pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.0pt on input line 28.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 29.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.0pt on input line 32.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.0pt on input line 32.
+<gne_logo.png, id=1, 903.375pt x 903.375pt>
+File: gne_logo.png Graphic file (type png)
+<use gne_logo.png>
+Package pdftex.def Info: gne_logo.png  used on input line 46.
+(pdftex.def)             Requested size: 161.82787pt x 161.82855pt.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 14.0pt on input line 62.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--63
+
+ []
+
+[1
+
+{C:/Users/saura/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/MiKTeX/fon
+ts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./gne_logo.png>]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 79.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 79.
+ [1]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 16.0pt on input line 90.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 16.0pt on input line 90.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[2]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 109.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 109.
+ (Minor_Final_Report.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [3])
+\tf@toc=\write3
+\openout3 = `Minor_Final_Report.toc'.
+
+ [4] (Minor_Final_Report.lof)
+\tf@lof=\write4
+\openout4 = `Minor_Final_Report.lof'.
+
+ [5]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 122.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 122.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 131.
+
+(D:\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 131.
+ [1
+
+{D:/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [2] [3] [4]
+LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line
+ 310.
+ (D:\MiKTeX\tex/latex/newtx\ot1ntxtt.fd
+File: ot1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 310.
+ [5] [6]
+<photos/flowChart.png, id=48, 539.76656pt x 433.62pt>
+File: photos/flowChart.png Graphic file (type png)
+<use photos/flowChart.png>
+Package pdftex.def Info: photos/flowChart.png  used on input line 455.
+(pdftex.def)             Requested size: 426.79134pt x 342.86702pt.
+
+[7] [8 <./photos/flowChart.png>] [9] [10] [11] [12] [13] [14]
+<photos/one.jpeg, id=76, 1606.0pt x 817.0525pt>
+File: photos/one.jpeg Graphic file (type jpg)
+<use photos/one.jpeg>
+Package pdftex.def Info: photos/one.jpeg  used on input line 746.
+(pdftex.def)             Requested size: 426.79134pt x 217.12877pt.
+<photos/two.jpeg, id=77, 1606.0pt x 813.0375pt>
+File: photos/two.jpeg Graphic file (type jpg)
+<use photos/two.jpeg>
+Package pdftex.def Info: photos/two.jpeg  used on input line 753.
+(pdftex.def)             Requested size: 426.79134pt x 216.0618pt.
+<photos/three.jpeg, id=78, 1606.0pt x 815.045pt>
+File: photos/three.jpeg Graphic file (type jpg)
+<use photos/three.jpeg>
+Package pdftex.def Info: photos/three.jpeg  used on input line 760.
+(pdftex.def)             Requested size: 426.79134pt x 216.59528pt.
+ [15 <./photos/one.jpeg> <./photos/two.jpeg>]
+<photos/four.jpeg, id=82, 1606.0pt x 814.04124pt>
+File: photos/four.jpeg Graphic file (type jpg)
+<use photos/four.jpeg>
+Package pdftex.def Info: photos/four.jpeg  used on input line 767.
+(pdftex.def)             Requested size: 426.79134pt x 216.32854pt.
+<photos/five.jpeg, id=83, 1606.0pt x 811.03pt>
+File: photos/five.jpeg Graphic file (type jpg)
+<use photos/five.jpeg>
+Package pdftex.def Info: photos/five.jpeg  used on input line 774.
+(pdftex.def)             Requested size: 426.79134pt x 215.5283pt.
+ [16 <./photos/three.jpeg> <./photos/four.jpeg>]
+<photos/six.jpeg, id=87, 1606.0pt x 817.0525pt>
+File: photos/six.jpeg Graphic file (type jpg)
+<use photos/six.jpeg>
+Package pdftex.def Info: photos/six.jpeg  used on input line 781.
+(pdftex.def)             Requested size: 426.79134pt x 217.12877pt.
+<photos/nine.jpeg, id=88, 1606.0pt x 814.04124pt>
+File: photos/nine.jpeg Graphic file (type jpg)
+<use photos/nine.jpeg>
+Package pdftex.def Info: photos/nine.jpeg  used on input line 788.
+(pdftex.def)             Requested size: 426.79134pt x 216.32854pt.
+
+[17 <./photos/five.jpeg> <./photos/six.jpeg>]
+<photos/eight.png, id=92, 1425.82687pt x 673.01437pt>
+File: photos/eight.png Graphic file (type png)
+<use photos/eight.png>
+Package pdftex.def Info: photos/eight.png  used on input line 799.
+(pdftex.def)             Requested size: 426.79134pt x 201.45401pt.
+<photos/ten.jpeg, id=93, 1606.0pt x 811.03pt>
+File: photos/ten.jpeg Graphic file (type jpg)
+<use photos/ten.jpeg>
+Package pdftex.def Info: photos/ten.jpeg  used on input line 806.
+(pdftex.def)             Requested size: 426.79134pt x 215.5283pt.
+ [18 <./photos/nine.jpeg> <./photos/eight.png>]
+<photos/upload.png, id=98, 1425.07407pt x 716.6775pt>
+File: photos/upload.png Graphic file (type png)
+<use photos/upload.png>
+Package pdftex.def Info: photos/upload.png  used on input line 813.
+(pdftex.def)             Requested size: 426.79134pt x 214.6331pt.
+<photos/eleven.jpeg, id=99, 1606.0pt x 813.0375pt>
+File: photos/eleven.jpeg Graphic file (type jpg)
+<use photos/eleven.jpeg>
+Package pdftex.def Info: photos/eleven.jpeg  used on input line 826.
+(pdftex.def)             Requested size: 426.79134pt x 216.0618pt.
+ [19 <./photos/ten.jpeg> <./photos/upload.png>]
+<photos/verify.png, id=105, 1927.2pt x 1084.05pt>
+File: photos/verify.png Graphic file (type png)
+<use photos/verify.png>
+Package pdftex.def Info: photos/verify.png  used on input line 833.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [20 <./photos/eleven.jpeg> <./photos/verify.png>] [21] [22] (Minor_Final_Repor
+t.bbl
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 26.
+) [23]
+(Minor_Final_Report.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5330 strings out of 467871
+ 86272 string characters out of 5435211
+ 515377 words of memory out of 5000000
+ 34097 multiletter control sequences out of 15000+600000
+ 656197 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,12n,77p,1321b,404s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX/fonts/type1/p
+ublic/tex-gyre/qtmr.pfb><D:/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><D:/MiKT
+eX/fonts/type1/public/newtx/ztmb.pfb><D:/MiKTeX/fonts/type1/public/newtx/ztmr.p
+fb><D:/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on Minor_Final_Report.pdf (29 pages, 2340658 bytes).
+PDF statistics:
+ 147 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+
